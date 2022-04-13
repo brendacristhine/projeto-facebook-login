@@ -40,12 +40,16 @@ body{
 }
 
 .left p{
-    font-size: 30px;
+    font-size: 29px;
     color: #1c1e21;
     height: 200px;
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
     left: 27px;
+}
+
+.right p{
+    text-align: center;
 }
 
 form{
@@ -97,6 +101,7 @@ form input:focus{
     font-size: 14px;
 }
 
+
 .right__sing-up{
     padding-top: 20px;
     border-top: 1px solid #999;
@@ -125,6 +130,74 @@ form input:focus{
     font-family: 'Arial';
     font-size: 15px;
 }
+
+@media(max-width: 950px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 400px;
+        align-content: center;
+        align-items: center;
+    }
+
+    .left p{
+        height: 75px;
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .right{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form{
+        width:350px;
+        align-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+@media(max-width:370px){
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left img{
+        height: 95px;
+    }
+
+    .left p, .right p{
+        display: none;
+    }
+    
+    form input, .right__forget, .right__loginBtn, .right__sing-upBtn{
+    font-size: 12px;        
+    }
+
+
+}
+
+
+
+
 
 
 
