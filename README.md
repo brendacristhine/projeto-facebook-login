@@ -5,4 +5,4 @@ links:
 -[Página CSS](./styles/style.css)
 
 Veja o projeto funcionando: 
-[Link](https://brendacristhine.github.io/projeto-facebook-login/)
+[Facebook Login](https://brendacristhine.github.io/projeto-facebook-login/)
